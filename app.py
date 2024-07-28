@@ -20,7 +20,7 @@ def load_cleaned_data(file_path):
 
 # Load embeddings from file
 def load_embeddings(file_path):
-    return np.load(file_path)
+    return np.load(file_path, allow_pickle=True)
 
 # Initialize global variables at the module level
 data = load_cleaned_data('cleaned_data.txt')
