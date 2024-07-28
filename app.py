@@ -24,7 +24,7 @@ def load_embeddings(file_path):
 
 # Initialize global variables at the module level
 data = load_cleaned_data('cleaned_data.txt')
-embeddings = load_embeddings('embeddings.npy')
+embeddings = load_embeddings('embeddings.py')
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Retrieve context using cosine similarity
