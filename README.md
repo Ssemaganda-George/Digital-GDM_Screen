@@ -25,3 +25,4 @@ The primary objectives of this project are to:
 - Gestational Diabetes Query Prompt: Combines user query with retrieved information.
 - OpenAI GPT-4 (LLM): Generates the final response.
 - Output: The response delivered to the user.
+- 
