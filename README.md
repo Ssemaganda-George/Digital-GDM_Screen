@@ -26,3 +26,4 @@ The primary objectives of this project are to:
 - OpenAI GPT-4 (LLM): Generates the final response.
 - Output: The response delivered to the user.
 - 
+- 
